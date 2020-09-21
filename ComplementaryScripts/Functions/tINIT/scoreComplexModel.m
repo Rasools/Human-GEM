@@ -4,7 +4,7 @@ function [rxnScores, geneScores, hpaScores, arrayScores] = scoreComplexModel(mod
 %   based on expression data from HPA and/or gene arrays.
 %
 %   It is highly recommended that the model grRules are "cleaned" and
-%   verified by the "cleanModelGeneRules" function prior to scoring the
+%   verified by the "cleanGrRules" function prior to scoring the
 %   model with scoreComplexModel.
 %
 %   model               a model structure
